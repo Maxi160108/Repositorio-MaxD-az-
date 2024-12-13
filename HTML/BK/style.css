@@ -1,0 +1,391 @@
+
+*{
+    flex-wrap: wrap;
+}
+
+body{
+background-color: #F5EBDC;
+margin: 0%;
+}
+
+
+/* Estilo de encabezado */
+
+.encabezado {
+    padding: 15px;
+    display: flex;
+    background-color: #f5ebdc; /* Establece el color de fondo */
+    color: #f5ebdc; /* Establece el color del texto */
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.btnsheader{
+    display:inline; /* Alinea los elementos */
+    margin-right: 40px; /* Margen hacia la derecha */
+    color: black; /* Color a elemento Anchor */
+    background-color: #f5ebdc;
+    border-radius: 50px;
+    border: none; 
+    cursor: pointer;
+    padding: 10px;
+}
+
+.btnsheader:hover{
+    background-color:#ecdfd0;
+    color: #e7a14f;
+}
+
+.logo{
+    margin: 0; /* Elimina el margen por defecto del título */
+    width: 200px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.Promociones{
+    border-radius: 50px;
+    border: none;
+    background-color: #d72300;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+.banner{
+    width: 100%;
+}
+.franja{
+    background-color:  rgb(223, 211, 181);
+    height: 100px;
+    width: 100%;
+}
+
+/*Cupones*/
+
+#cupones {
+    margin-left: 140px;
+    justify-content: start;
+    color:  brown;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.cupones{
+    display: flex;
+    justify-content: center;
+}
+
+.hamburger1{
+    border-radius: 20px;
+    justify-content: start;
+    width: 420px;
+    height: 350px;
+    margin: 30px;    
+    cursor: pointer;
+
+}
+
+.hamburger2{
+    border-radius: 20px;
+    justify-content: center;
+    width: 420px;
+    height: 350px;
+    margin: 30px;
+    cursor: pointer;
+
+}
+
+.hamburger3{
+    border-radius: 20px;
+    justify-content: end;
+    width: 420px;
+    height: 350px;
+    margin: 30px;
+    cursor: pointer;
+
+}
+
+/*Locales*/
+
+.locales{
+    background-color: #efe0cc;
+    border-radius: 20px;
+    margin: 0 auto;
+    height: 300px;
+    padding-top: 30px;
+    display: flex;
+    width: 1380px;
+}
+
+.local{
+    justify-content: start;
+}
+#locales{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 30px;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(109, 31, 31);
+}
+
+.parrafo{
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#direccion{
+    border-radius: 10px;
+    border-style:groove;
+    height: 50px;
+    width: 500px;
+    margin-left: 50px;
+    padding-left: 20px;
+    border: rgb(83, 28, 28);
+}
+
+/*Locales: img*/
+
+.image{
+    margin-left: 400px;
+}
+
+.niña{
+    height: 250px;
+}
+
+/*Novedades*/
+
+.novedades{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.Nove{
+    margin-left: 140px;
+    justify-content: start;
+    color:  brown;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.kingf{
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    justify-content: end;
+    margin: 20px;
+}
+
+.kings{
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    justify-content: end;
+    margin: 20px;
+}
+
+.plant{
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    justify-content: end;
+    margin: 20px;
+}
+
+#kingf{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+#kingf:hover{
+    box-shadow: 0px 0px 10px;
+}
+
+
+#kings{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+#kings:hover{
+    box-shadow: 0px 0px 10px;
+}
+
+#plant{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    cursor: pointer;  
+    transition: box-shadow 0.2s;
+}
+
+#plant:hover{
+    box-shadow: 0px 0px 10px;
+}
+
+.content{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(163, 85, 85);
+}
+
+.Fusión{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(128, 29, 29);
+}
+
+.Selection{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(128, 29, 29);
+}
+
+.Based{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(128, 29, 29);
+}
+
+/*whopper*/
+.whpper{
+    background-color: red;
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+}
+
+.whopper{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+#whopper{
+    margin-top: 70px;
+    justify-content: start;
+    height: 550px;
+    width: 550px;
+}
+
+.whopperinfo{
+    margin-left: 80px;
+    width: 600px;
+}
+
+.whopperh{
+    color: white;
+    font-family:cursive;
+    font-size:50px;
+}
+
+.google{
+    width: 200px;
+    height: 60px;
+    margin: 10px;
+}
+
+.app{
+    width: 200px;
+    height: 60px;
+    margin: 10px;
+}
+
+.wp{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Pie de pagina*/
+
+footer{background-color: #502314;}
+
+.contenidos{
+    background-color: #502314;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+}
+
+.bkct{
+    width: 200px;
+    height: 200px;
+}
+
+.space{
+    width: 700px;
+}
+
+.infbk{
+    margin-left: 80px;
+}
+
+/*Pie de pagina: h1*/
+
+.bktxt{
+    font-family: cursive;
+    color: white;
+    cursor: pointer;
+}
+
+.inbk{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+/*Pie de pagina: p*/
+
+.inbtxt{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.inftxt{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+/*Pie de pagina: hover*/
+
+.inbtxt:hover{color: red;}
+
+.inftxt:hover{color: red;}
+
+/*Pie de pagina: END*/
+
+#end{
+    display: flex;
+    box-shadow: 0px -1px 0px white;
+    padding: 20px;
+    width: 1380px;
+    margin: 0 auto;
+}
+.end{
+    flex: 1;
+    
+}
+
+/*Pie de pagina: END(P)*/
+
+.end p{
+    color: white;
+}
+
+/*Pie de pagina: END(IMG)*/
+
+.imgend{
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+}
